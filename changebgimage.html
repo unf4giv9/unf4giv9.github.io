@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   	<meta name="viewport" content="width=device-width, initial-scale=1"/> 
+   	<style>
+   		body {
+   			background: #222222;
+   			color:white;
+   			text-align:center;
+   			
+   		}
+   		h1 {
+   			font-size:40px;
+   			font-family:Florence, cursive;
+   			
+   		}
+   		footer {
+   			bottom:0;
+   			left:0;
+   			width:100%;
+   			
+   			text-align:center;
+   		}
+   		button {
+   			background:transparent;
+   			border-color:white;
+   			color:white;
+   			width:300px;
+   			height:35px;
+   			
+   		}
+   		button:clicked {
+   			background:red;
+   			border-color:orange;
+   		}
+   		a {
+   			color:skyblue;
+   			text-decoration:none;
+   		}
+   		a:visited {
+   			text-decoration:underline;
+   		}
+   		h3 {
+   			color:darkred;
+   		}
+   	</style>
+      <title>Tips & Tricks</title>
+   </head>
+   <body>
+      <div>
+      	<h1>How To: Change Background Color to image or change background image</h1>
+      	</div>
+      	 <a href="https://youtu.be/tr55JJZ1Jsc" >Click Here For Video Guide</a>
+      	<section>
+      		<h3>Step 1:</h3>
+      		<br>
+      			<p>Open the apkeditor application.</p>
+      			<br>
+      				
+      				<h3>Step 2:</h3>
+      		<br>
+      			<p>Click on Select Apk From App, and select the app you would like to edit.</p>
+      			<br>
+      				<h3>Step 3:</h3>
+      		<br>
+      			<p>Select the option that says "full edit" and wait for everything to load up.</p>
+      			<br>
+      				<h3>Step 4:</h3>
+      		<br>
+      			<p>Click on the file icon and make your way to this file.
+      			<br>
+      			res -> Layout 
+      			<br>
+      				Find the file you would like to change the background color in, for example something like activity_main.xml
+      			</p>
+      			<br>
+      				<h3>Step 5:</h3>
+      		<br>
+      			<p>inside of the first layout, if there is not already something that says
+      			<span style="background:#000000;">android:background="@color/color"</span><br>Or <span style="background:black;"><br>android:background="#hex"</span><br>
+      			Or <span style="background:black;"><br>android:background="@drawable/bg"</span><br>
+      				then you need to add the last one, and also add your drawable(image) to the folder named drawables located @ res -> drawables.
+      			</p>
+      			<br>
+      				<h3>Step 6:</h3>
+      		<br>
+      			<p>You then need to click the save button, go back and select build in the top right and wait for it to complete. Once it completes, click remove -> Uninstall then Install it, and it should be good.</p>
+      			<br>
+      	</section>
+      		
+      <footer><a href="https://mail.google.com/mail/?view=cm&fs=1&to=heagoo@gmail.com&su=SUBJECT&body=BODY&bcc=heagoo@gmail.com"target="_blank">@Heagoo</a>, ApkEditor</footer>
+   </body
+</html>
